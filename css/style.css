@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+:root {
+    --azulito: #4b59db;
+    --azulprof: #2e3786;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    background-color: var(--azulito);
+}
+
+header {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+#navbar {
+    font-size: 33px;
+    color: #fff;
+}
+
+.nav-item a {
+    color: #fff !important;
+}
+
+input {
+    background-color: var(--azulito);
+}
+
+center {
+    background-color: var(--azulprof);
+    background-size: cover;
+}
+
+body {
+    color: #fff;
+}
+
+#buscador {
+    background-color: var(--azulito);
+    font-size: 25px;
+    margin-bottom: 20px 0;
+}
+
+.destacados {
+    background-color: var(--azulprof);
+}
+
+label {
+    display: block;
+    font: 1rem 'Montserrat', sans-serif;
+}
+
+#libros-nuevos {
+    background-color: var(--azulito);
+    position: relative;
+    padding: 35px 0;
+}
+
+#esplora-libros {
+    background-color: var(--azulito);
+    text-align: center;
+}
+
+#explora {
+    background-color: var(--azulito);
+    text-align: center;
+    align-items: center;
+    padding-left: 10%;
+}
+
+#footer {
+    background-color: rgb(184, 171, 30);
+    font-size: 30px;
+    margin-top: 70px;
+}
+
+.titulo {
+    background-color: var(--azulprof)!important;
+    text-align: center;
+    font-size: 37px;
+    border: 1px solid #000000;
+}
+
+#signup {
+    background-color: var(--azulprof);
+}
+
+#signup h3 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 300;
+    margin: 40px;
+}
+
+.btn-default {
+    background: #B09FFE;
+    color: #fff !important;
+    padding: 17px 45px !important;
+    border: 0px;
+    font-size: 17px;
+    font-weight: 600 !important;
+    transition: all 0.3s ease-in-out;
+    align-content: center !important;
+}
+
+.btn-default:hover {
+    transform: scale(0.9);
+    transition: all 0.3s ease-in-out;
+}
+
+#destaca {
+    height: 80%;
+}
