@@ -7,7 +7,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
-    background-color: var(--azulito);
+    background-color: #FFFFFF;
 }
 
 header {
@@ -17,34 +17,35 @@ header {
 
 #navbar {
     font-size: 33px;
-    color: #fff;
+    color: #2EC4B6;
 }
 
 .nav-item a {
-    color: #fff !important;
+    color: #2EC4B6 !important;
 }
 
 input {
-    background-color: var(--azulito);
+    background-color: #FFFFFF;
+	color: #000000;
 }
 
 center {
-    background-color: var(--azulprof);
     background-size: cover;
 }
 
 body {
-    color: #fff;
+    color: #FF9F1C;
+	font-size: 20px;
 }
 
 #buscador {
-    background-color: var(--azulito);
+    background-color:#2EC4B6;
     font-size: 25px;
     margin-bottom: 20px 0;
 }
 
 .destacados {
-    background-color: var(--azulprof);
+    background-color: #2EC4B6;
 }
 
 label {
@@ -53,18 +54,18 @@ label {
 }
 
 #libros-nuevos {
-    background-color: var(--azulito);
+    background-color:#CEEEF3;
     position: relative;
     padding: 35px 0;
 }
 
 #esplora-libros {
-    background-color: var(--azulito);
+    background-color:#CEEEF3 ;
     text-align: center;
 }
 
 #explora {
-    background-color: var(--azulito);
+    background-color: #CEEEF3 ;
     text-align: center;
     align-items: center;
     padding-left: 10%;
@@ -74,17 +75,18 @@ label {
     background-color: rgb(184, 171, 30);
     font-size: 30px;
     margin-top: 70px;
+	color: #FFFFFF
 }
 
 .titulo {
-    background-color: var(--azulprof)!important;
     text-align: center;
     font-size: 37px;
     border: 1px solid #000000;
+	
 }
 
 #signup {
-    background-color: var(--azulprof);
+    background-color: ;
 }
 
 #signup h3 {
@@ -95,8 +97,7 @@ label {
 }
 
 .btn-default {
-    background: #B09FFE;
-    color: #fff !important;
+    color: #2EC4B6 !important;
     padding: 17px 45px !important;
     border: 0px;
     font-size: 17px;
@@ -106,6 +107,7 @@ label {
 }
 
 .btn-default:hover {
+	background-color: #FF9F1C;
     transform: scale(0.9);
     transition: all 0.3s ease-in-out;
 }
